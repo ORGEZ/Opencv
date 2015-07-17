@@ -1,12 +1,14 @@
-﻿Построение начато 09.07.2015 18:55:32.
+﻿Построение начато 17.07.2015 7:55:47.
      1>Проект "C:\Users\acer1\documents\visual studio 2010\Projects\myNewOpenCv\myNewOpenCv\myNewOpenCv.vcxproj" в узле 2 (целевые объекты build).
      1>InitializeBuildStatus:
-         Создание "Debug\myNewOpenCv.unsuccessfulbuild", так как было задано "AlwaysCreate".
+         Обращение к "Debug\myNewOpenCv.unsuccessfulbuild".
        ClCompile:
          c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:\opencv243\build\include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
          main.cpp
      1>c:\opencv243\build\include\opencv2\flann\flann.hpp(233): warning C4996: 'cv::flann::Index_<T>': объявлен deprecate
                  c:\opencv243\build\include\opencv2\flann\flann.hpp(278): см. ссылку на создание экземпляров класса шаблон при компиляции "cv::flann::Index_<T>"
+     1>c:\users\acer1\documents\visual studio 2010\projects\mynewopencv\mynewopencv\main.cpp(44): warning C4018: <: несоответствие типов со знаком и без знака
+     1>c:\users\acer1\documents\visual studio 2010\projects\mynewopencv\mynewopencv\main.cpp(50): warning C4018: <: несоответствие типов со знаком и без знака
        ManifestResourceCompile:
          Для всех выходных данных обновления не требуется.
        Link:
@@ -25,4 +27,4 @@
 
 Построение успешно завершено.
 
-Затраченное время: 00:00:02.36
+Затраченное время: 00:00:03.70
